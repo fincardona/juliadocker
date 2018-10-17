@@ -14,7 +14,8 @@ RUN apt-get -y update && \
     git \
     cmake \
     make \
-    tar 
+    tar \
+    gettext
 RUN conda install \
     ipython \
     astropy \
