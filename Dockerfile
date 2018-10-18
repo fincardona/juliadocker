@@ -17,6 +17,7 @@ RUN apt-get -y update && \
     tar \
     gettext \
     libcairo2 \
+    libpango1.0-0 \
     libopenmpi-dev
 RUN conda install \
     ipython \
