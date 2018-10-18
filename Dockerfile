@@ -16,7 +16,8 @@ RUN apt-get -y update && \
     make \
     tar \
     gettext \
-    libcairo2
+    libcairo2 \
+    libopenmpi-dev
 RUN conda install \
     ipython \
     astropy \
